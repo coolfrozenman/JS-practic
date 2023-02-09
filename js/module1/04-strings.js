@@ -1,8 +1,7 @@
-const firstName = "Morozov";
-const lastName = "Dmytro";
-const room = "716";
-const type = "VIP";
-
+// const firstName = "Morozov";
+// const lastName = "Dmytro";
+// const room = "716";
+// const type = "VIP";
 // const fullName = firstName + " " + lastName;
 
 // OLD SCHOOL ГАДОСТЬ
@@ -28,9 +27,9 @@ const type = "VIP";
 // МЕТОДЫ СТРОК
 const superValue = "qwerty";
 const userInput = prompt("введи нужное");
+const normolaizedInput = userInput.toLowerCase();
 console.log("userInput before: ", userInput);
 
-const normolaizedInput = userInput.toLowerCase();
 console.log("userInput after:", userInput);
 console.log("normalaizedInput:", normolaizedInput);
 console.log(superValue === normolaizedInput);

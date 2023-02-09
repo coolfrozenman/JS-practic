@@ -8,4 +8,4 @@ console.log(userInput);
 console.log(typeof userInput);
 
 console.log(5 < 9);
-console.log(true === 10); //строгое равенство//
+console.log(true === 10); //строгое равенствоx//
