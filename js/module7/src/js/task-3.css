@@ -1,0 +1,12 @@
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.gallery-card {
+  list-style-type: none;
+}
+.gallery-card__img {
+  width: 400px;
+  height: 300px;
+}

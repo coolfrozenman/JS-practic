@@ -7,7 +7,7 @@ const account = {
     this.discount = value;
   },
   showOrders() {
-    return this.orders;
+    return ths.orders;
   },
   addOrder(cost, order) {
     this.balance -= cost;

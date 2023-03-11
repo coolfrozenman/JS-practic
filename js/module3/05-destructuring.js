@@ -1,9 +1,9 @@
 //ДЕСТРУКТУРИЗАЦИЯ объекта
-// const hotel = {
-//   name: "Resolt Hotel",
-//   stars: 5,
-//   capacity: 100,
-// };
+const hotel = {
+  name: "Resolt Hotel",
+  stars: 5,
+  capacity: 100,
+};
 
 // const { name, stars, capacity } = hotel; //ЭТО И ЕСТЬ СИНТАКСИС ДЕСТРУКТУРИЗАЦИЯ. НУЖЕН ДЛЯ ТОГО ЧТОБЫ НЕ ПИСАТЬ (hotel.name, hotel.stars и т.д.)
 
@@ -11,17 +11,17 @@
 // console.log("stars:", stars);
 // console.log("capacity:", capacity);
 
-// const showHotelInfo = function (
-//   { name, stars, capacity } //ДЭСТРУКТУРИЗАЦИЯ ВНУТРИ ФУНКЦИИ
-// ) {
-//   const { name, stars, capacity } = hotelStats;//
+const showHotelInfo = function (
+  { name, stars, capacity } //  //ДЭСТРУКТУРИЗАЦИЯ ВНУТРИ ФУНКЦИИ
+) {
+  // const { name, stars, capacity } = hotelStats;
 
-//   console.log("name:", name);
-//   console.log("stars:", stars);
-//   console.log("capacity:", capacity);
-// };
+  console.log("name:", name);
+  console.log("stars:", stars);
+  console.log("capacity:", capacity);
+};
 
-// showHotelInfo(hotel);
+showHotelInfo(hotel);
 
 // const { name: hotelName = "", stars, capacity } = hotel; //пример как переназвать свойство
 
@@ -58,20 +58,20 @@
 
 // console.log(red, green, blue);
 
-const profile = {
-  name: "dima",
-  tag: "frozen",
-  location: "kamenskoe, ukraine",
-  avatar: "https://www.etsy.com/your/shops/me/dashboard?ref=hdr-mcpa",
-  stats: {
-    followers: 5345,
-    views: 3443,
-    likes: 1234,
-  },
-};
+// const profile = {
+//   name: "dima",
+//   tag: "frozen",
+//   location: "kamenskoe, ukraine",
+//   avatar: "https://www.etsy.com/your/shops/me/dashboard?ref=hdr-mcpa",
+//   stats: {
+//     followers: 5345,
+//     views: 3443,
+//     likes: 1234,
+//   },
+// };
 
-const { name, tag, location, ...restProps } = profile;
+// const { name, tag, location, ...restProps } = profile;
 
-console.log(name, tag, location);
-console.log(restProps);
-console.log(profile);
+// console.log(name, tag, location);
+// console.log(restProps);
+// console.log(profile);
